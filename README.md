@@ -4,6 +4,7 @@ This directory is intended to help a developer setup their local environment wit
 ## Dependencies
 - [Make](https://www.gnu.org/software/make/)
 - [Xcode](https://developer.apple.com/xcode/)
+- [curl](https://curl.se/)
 
 ## Usage
 ### For Automatic installation
