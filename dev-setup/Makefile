@@ -25,16 +25,16 @@ install/rosetta:## Enable Rosetta 2 on Apple Silicon to run x86_64 binaries.
 
 install/homebrew:## Install Homebrew.
 	@printf "Installing Homebrew...\n"
-	@bash ./dev-setup/check_install_homebrew.sh
+	@bash ./check_install_homebrew.sh
 
 install/packages:## Install all cli packages required for development.
 	@printf "Installing packages...\n"
-	@bash ./dev-setup/install_packages.sh
-	@bash ./dev-setup/install_packages_cask.sh
+	@bash ./install_packages.sh
+	@bash ./install_packages_cask.sh
 
 install/vscode-extensions:## Install all the crucial VSCode extensions.
 	@printf "Installing VSCode extensions...\n"
-	@bash ./dev-setup/check_install_vscode.sh
+	@bash ./check_install_vscode.sh
 	@for extension in $(VSCODE_EXTENSIONS); do \
 		printf "Installing $$extension...\n"; \
 		code --install-extension $$extension; \
@@ -42,7 +42,7 @@ install/vscode-extensions:## Install all the crucial VSCode extensions.
 	@printf "All VSCode extensions are installed.\n"
 
 setup/aws:## Setup AWS credentials.
-	@bash ./dev-setup/configure_aws.sh
+	@bash ./configure_aws.sh
 
 setup/full:## Do a full setup of the development environment (install packages, install VSCode extensions, etc.).
 	$(MAKE) install/packages
