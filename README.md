@@ -6,7 +6,10 @@ This directory is intended to help a developer setup their local environment wit
 - [Xcode](https://developer.apple.com/xcode/)
 
 ## Usage
-1. Clone the repository by running `git clone https://github.com/nexxt-intelligence/ifs-global.git`
+### For Automatic installation
+Run `curl -s https://raw.githubusercontent.com/nexxt-intelligence/build-harness/master/dev-setup/install.sh > install.sh && chmod +x install.sh &&bash ./install.sh && rm install.sh` in a terminal window in the directory of your choice.
+### For Manual Installation
+1. Clone the repository by running `git clone https://github.com/nexxt-intelligence/build-harness.git`
 2. Navigate to the `dev-setup` directory by running `cd dev-setup`
 3. Run `make help` to see the available commands
 4. Run `make setup/full` to install all dependencies and setup the environment
