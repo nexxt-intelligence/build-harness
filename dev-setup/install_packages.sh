@@ -25,6 +25,7 @@ PACKAGES=(
     "node"
     "npm"
     "yarn"
+    "terraform-docs"
 )
 
 check_install_homebrew

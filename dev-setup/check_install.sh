@@ -22,6 +22,7 @@ PACKAGES_FORMULAE=(
     "node:node"
     "npm:npm"
     "yarn:yarn"
+    "terraform-docs:terraform-docs"
 )
 
 # A map for the formulae of all the values in CASK_PACKAGES
