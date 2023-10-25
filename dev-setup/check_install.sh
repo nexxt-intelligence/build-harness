@@ -16,6 +16,7 @@ PACKAGES_FORMULAE=(
     "terraform:terraform"
     "docker:docker"
     "docker-compose:docker-compose"
+    "docker-machine:docker-machine"
     "kubectl:kubectl"
     "gcc:gcc"
     "cmake:cmake"

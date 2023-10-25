@@ -19,6 +19,7 @@ PACKAGES=(
     "terraform"
     "docker"
     "docker-compose"
+    "docker-machine"
     "kubectl"
     "gcc"
     "cmake"
