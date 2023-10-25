@@ -8,6 +8,7 @@ source ./dev-setup/util.sh
 PACKAGES=(
     "conda"
     "code"
+    "virtualbox"
 )
 
 # check_install_homebrew

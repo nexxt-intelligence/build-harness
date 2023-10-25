@@ -30,6 +30,7 @@ PACKAGES_FORMULAE=(
 CASK_PACKAGES=(
     "conda:miniconda"
     "code:visual-studio-code"
+    "virtualbox:virtualbox"
 )
 
 # Find the formulae of a package from the list of PACKAGES_FORMULAE
