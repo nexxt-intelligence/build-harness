@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ./dev-setup/util.sh
+
 # A map for the formulae of all the values in PACKAGES
 # This to support bash < 4.0
 PACKAGES_FORMULAE=(
